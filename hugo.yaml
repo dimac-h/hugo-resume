@@ -27,6 +27,7 @@ params:
         disableProjects: false
         disableAchievements: false
         disableContact: false
+        disableThingstoremember: false
   # Hero
   hero:
     enable: true
@@ -75,10 +76,17 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Backend developer"
+        company: Software Improvement Group
+        companyUrl: "https://www.softwareimprovementgroup.com/"
+        date: "Sep 2025 - present"
+        content: |
+          Software Improvement Group (Sig) is building a software quality assurance platform for companies to grade and improve the quality of their code.
+
       - job: "Computer Science Teacher"
         company: "Hogeschool Utrecht"
         companyUrl: "https://www.hu.nl/"
-        date: "Jan 2020 - Sep 2025"
+        date: "Jan 2020 - Sep 2025 5 yrs 8 mos"
         content: | 
           Senior teacher teaching backend development to students in their sophomore and junior year. 
           Responsible for the development of the Software Development Duaal major, a hybrid combination of learning and working in software development. 
@@ -103,54 +111,58 @@ params:
             - Processes and tools: Agile, eXtreme Programming, DevOps, continuous integration, containerization, immutable infrastructure, infrastructure as code, Git
 
       - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+        company: "National Road Traffic Data Portal"
+        companyUrl: "https://www.ndw.nu/"
+        date: "Apr 2023 - Jul 2023 · 4 mos"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          Parttime secondment as software engineer next to teaching software development. 
+          Developing a viewer application to display traffic and road information for road managers at Rijkswaterstaat.
 
       - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        company: "AmbuSuite - Topicus"
+        companyUrl: "https://viplive.nl/ambusuite"
+        date: "Mar 2019 - Dec 2019 · 11 mos"
+
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Creating software for ambulances and hospitals. Researching the design and implementation of software architectures that focus on integrating enterprises' software in the emergency healthcare sector.
+      
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+  thingstoremember:
+    title: Other
+    enable:
+      true
+    items:
+      - job: "Buitengewoon Raadslid Groenlinks Zeist"
+        company: Groenlinks Zeist
+        companyUrl: "https://zeist.groenlinks.nl/"
+        date: Feb 2024 - Sep 2024 (8 mos)
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Participating in Zeist local politics and following the city council track for becoming council member.
+      - job: "Computer Science Teacher"
+        company: "Unic Utrecht"
+        companyUrl: "https://www.unic-utrecht.nl/"
+        date: "Feb 2018 - Feb 2019 · 1 yr 1 mo"
+        content: |
+          Teacher in Education (Dutch: LIO) in computer science. 
+          Obtained my first degree teacher education certification in Computer Science in an internship from the Utrecht University Graduate School of Teaching.
+      - job: "Junior Consultant"
+        company: "Werken met Case"
+        companyUrl: "https://www.werkenmetcase.nl/"
+        date: "Oct 2017 - Aug 2018 · 11 mos"
+        content: |
+          Lead executive in several distinct consulting projects for clients in various markets. 
+          Companies were consulted with their market strategy and policies by conducting market research, writing reports and providing advice for market entries and approaches.
+      - job: "Junior Web Developer"
+        company: "Webeau"
+        companyUrl: "https://bttr.nl/"
+        date: "Aug 2016 - May 2017 · 10 mos"
+      - job: "Technician"
+        company: "Student Aan Huis"
+        companyUrl: "https://www.studentaanhuis.nl/"
+        date: "Jan 2015 - Sep 2017 · 2 yrs 2 mos"
+        content: |
+          Worked here on Jan 2015 - Aug 2016 · 1 yr 8 mos, and Jun 2017 - Sep 2017 · 4 mos
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
