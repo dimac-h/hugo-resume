@@ -1,7 +1,0 @@
-languageCode = 'en-us'
-title = 'Resume'
-theme = 'hugo-profile'
-buildDrafts = true
-
-[params]
-    mainSections = ["posts"]
