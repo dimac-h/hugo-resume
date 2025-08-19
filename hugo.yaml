@@ -35,10 +35,10 @@ params:
     subtitle: "A passion for programming, a knack for problem solving and a
     talent for leadership"
     content: "A passionate backend developer. I tend to make use of modern technologies to build applications that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    image: "/images/me.jpg"
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+      #roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -57,34 +57,50 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I am a backend software developer with a passion for software quality. I also love teaching and climbing. I am currently working as a software developer at [Software Improvement Group](https://www.softwareimprovementgroup.com/) in Amsterdam
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Java/Spring"
+        - "Domain Driven Design"
+        - "Leadership"
+        - "Teaching & coaching"
+        - "Docker"
+        - "RabbitMQ & NoSQL"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Computer Science Teacher"
+        company: "Hogeschool Utrecht"
+        companyUrl: "https://www.hu.nl/"
+        date: "Jan 2020 - Sep 2025"
+        content: | 
+          Senior teacher teaching backend development to students in their sophomore and junior year. 
+          Responsible for the development of the Software Development Duaal major, a hybrid combination of learning and working in software development. 
+          Member of the Institute Council and Curriculum Comittee. SDB certified.
+          Work activities comprised:
+            - Teaching end level (P3) back-end development to students, focusing on software quality courses
+            - Developer of the new major Software Development Duaal, where students follow courses and work in a software development company in parallel. Responsible for the development of the concept, implementation and coordination.
+            - Developer of the master Graduate School of Teaching for computer science teachers (MSc)
+            - Course development developing and evolving courses in the software development majors
+            - Teacher training (BKE-certification track)
+            - Coordinating semester coaches for the Software Development Duaal coaches
+            - Member of the Curriculum Committee
+            - Member of the Institute Council (Instituutsraad) and the Educational Committee (Opleidingscommissie).
+            - Senior Didactische bekwaamheid Examineren, Ontwerpen en Uitvoeren
+          
+          Topics taught:
+            - Back-end programming: Java, Spring, Hibernate, PostgreSQL, SQL, Docker, RabbitMQ
+            - Front-end programming: design systems, modern HTML/CSS/JS, Web Components, LitElement, RxJS
+            - Paradigms: object model, design principles, design patterns, Domain Driven Design, CQRS, event sourcing, functional programming, messaging.
+            - Functional quality: unit testing, integration testing, TDD, test strategy, xunit patterns, code coverage, mutation tests
+            - Structural quality: UML, software architecture, package principles, semantically rich modular architectures, architecture compliance checking, static analysis, layered architecture
+            - Processes and tools: Agile, eXtreme Programming, DevOps, continuous integration, containerization, immutable infrastructure, infrastructure as code, Git
 
       - job: "Software Developer"
         company: "Amazon"
