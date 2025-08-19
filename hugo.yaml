@@ -168,7 +168,7 @@ params:
   education:
     enable: true
     # title: "Custom Name"
-    index: false
+    index: true
     items:
       - title: "Master of Business Administration"
         school:
