@@ -43,7 +43,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "#about"
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -57,8 +57,11 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: |-
-      I am a backend software developer with a passion for software quality. I also love teaching and climbing. I am currently working as a software developer at [Software Improvement Group](https://www.softwareimprovementgroup.com/) in Amsterdam
+    content: |
+      I am a backend software developer with a passion for software quality. 
+      I also love teaching and climbing. 
+      I am currently working as a software developer at [Software Improvement Group](https://www.softwareimprovementgroup.com/) in Amsterdam.
+      
 
     skills:
       enable: true
