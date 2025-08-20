@@ -23,19 +23,19 @@ params:
       menus:
         disableAbout: false
         disableExperience: false
+        disableOther: false
         disableEducation: false
         disableProjects: false
         disableAchievements: false
         disableContact: false
-        disableThingstoremember: false
   # Hero
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Hugo."
-    subtitle: "A passion for programming, a knack for problem solving and a
+    subtitle: "SUP Y'ALL"
+    content: "A passion for programming, a knack for problem solving and a
     talent for leadership"
-    content: "A passionate backend developer. I tend to make use of modern technologies to build applications that look great, feel fantastic, and function correctly."
     image: "/images/me.jpg"
     bottomImage:
       enable: true
@@ -127,7 +127,7 @@ params:
           Creating software for ambulances and hospitals. Researching the design and implementation of software architectures that focus on integrating enterprises' software in the emergency healthcare sector.
       
 
-  thingstoremember:
+  other:
     title: Other
     enable:
       true
@@ -135,7 +135,7 @@ params:
       - job: "Buitengewoon Raadslid Groenlinks Zeist"
         company: Groenlinks Zeist
         companyUrl: "https://zeist.groenlinks.nl/"
-        date: Feb 2024 - Sep 2024 (8 mos)
+        date: "Feb 2024 - Sep 2024 · 8 mos"
         content: |
           Participating in Zeist local politics and following the city council track for becoming council member.
       - job: "Computer Science Teacher"
